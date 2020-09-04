@@ -9,7 +9,7 @@ excel util
 import openpyxl;
 
 def create_excel(header,body,file_path):
-    # 获取 workbook 对象
+    # 获取 workbook （整个对象）对象
     workbook = openpyxl.Workbook();
     # 获取 sheet 对象
     active_sheet = workbook.get_active_sheet();

@@ -129,6 +129,8 @@ print(q);
 q.insert(2, "assa");
 print(q);
 q.pop();  # 删除最后一个元素
+# pop（1）以下标删除 在list中默认删除最后一个元素，set中默认删除第一个元素
+# remove（“元素内容”）以元素内容删除
 print(q);
 q.pop(2);  # 删除指定位置元素
 print(q);

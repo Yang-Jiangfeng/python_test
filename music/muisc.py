@@ -40,5 +40,19 @@ def muisc_page(url):
     # urlretrieve(tag_soup,"/python/img/%s.jpg"%(uuid.uuid1(),));
     print("succes");
 
+def a(*c):
+    a=1;
+    if len(c)==0:
+        return 0;
+    for b in c:
+        a *= b;
+    return a;
+
+def b (str):
+    return str.strip();
+
 if __name__ == '__main__':
     muiscs_page("http://music.taihe.com/songlist/263016");
+    # print(a())
+    # print(" asdssd   ")
+    # print(b(" asdssd   "))

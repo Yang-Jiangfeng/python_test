@@ -24,7 +24,7 @@
 		["cdsa", 32, None, True]
 		["cdsa", 32, 33.2, None]
 		[32, 33.2, None, True]
-	print(15 // 2);		D
+	print(15 // 2);		B
 		1
 		7
 		7.5
